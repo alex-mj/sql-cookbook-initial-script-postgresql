@@ -1,5 +1,5 @@
 Hi.
-There are scripts for creating EMP and DEPT tables on postgresql database
+Here are scripts for creating EMP and DEPT tables on postgresql database
 
 ```SQL
 create table dept(

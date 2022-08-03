@@ -1,7 +1,7 @@
 Hi.
 There are scripts for creating EMP and DEPT tables on postgresql database
 
-*** SQL
+`SQL
 create table dept(
   deptno   decimal(2,0) not null,
   dname    varchar(14),
@@ -41,4 +41,4 @@ INSERT INTO EMP (EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO) VALUES
 	(7934, 'MILLER', 	'CLERK', 	7782, TO_DATE('23-1-1982','dd-mm-yyyy'), 1300, CAST(NULL AS integer), 10);
 
 SELECT * FROM EMP ORDER BY 1;
-***
+`
